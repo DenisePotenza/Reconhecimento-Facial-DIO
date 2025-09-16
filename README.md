@@ -11,22 +11,21 @@ O projeto foi desenvolvido em **Python**, utilizando as bibliotecas `face_recogn
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto  
 
-Reconhecimento Facial/
-│── data/
-│ ├── Alice/
-│ │ ├── train_embeddings.pkl
-│── Imagens_teste
-│ ├── teste.jpg
-│── imagens_treinamento
-│ ├── Keira Knightley/
-│ ├── Natalie Portman/
-│── models/
-│ ├── classifier.joblib
-│── encodings.pickle
-│── README.md
-│── Reconhecimento-Facial-DIO.ipynb
+Reconhecimento Facial/  
+│── data/  
+│ ├── train_embeddings.pkl  
+│── Imagens_teste  
+│ ├── teste.jpg  
+│── imagens_treinamento  
+│ ├── Keira Knightley/  
+│ ├── Natalie Portman/  
+│── models/  
+│ ├── classifier.joblib  
+│── encodings.pickle  
+│── README.md  
+│── Reconhecimento-Facial-DIO.ipynb  
 
 
 - **imagens_treinamento/** → imagens de referência (uma pasta por pessoa).
@@ -40,18 +39,21 @@ Reconhecimento Facial/
 ## 🚀 Como Executar
 
 ### 1️⃣ Instalar dependências
-<pre>
-```bash
+```
+bash
 
 pip install face-recognition
 pip install opencv-python
-pip install matplotlib </pre>
+pip install matplotlib
+```
+ 
 
 ⚠️ No Linux, pode ser necessário instalar pacotes adicionais:
-<pre>
-```bash
+```
+bash
 
-sudo apt-get install cmake libdlib-dev</pre>
+sudo apt-get install cmake libdlib-dev
+```
 
 2️⃣ Treinar os encodings
 
@@ -63,19 +65,18 @@ Para testar em uma imagem de imagens_teste o script vai carregar os encodings, d
 
 🖼️ Exemplo de Saída
 
-Entrada (teste.jpg):
+Entrada :  
+![teste.jpg](/Imagens_teste/teste.jpg)
 
-Saída (com bounding boxes):![Imagem de Teste](image.png)
+Saída (com bounding boxes):  
+![Imagem de Teste](image.png)
 
 ⚙️ Tecnologias Utilizadas
 
-Python
-
-face_recognition
-
-OpenCV
-
-dlib
+* Python
+* face_recognition
+* OpenCV
+* dlib
 
 📌 Melhorias Futuras
 
